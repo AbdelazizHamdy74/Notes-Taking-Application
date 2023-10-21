@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: linear-gradient(to right,rgb(46, 151, 167), rgb(238, 238, 238));
+}
+
+#main{
+
+    min-height: 100vh;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#addBtn{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background-color: #0fdf08;
+    border: none;
+    padding: 10px;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#addBtn:hover{
+    background-color: #0644a0;
+}
+
+.note{
+    background: transparent;
+    margin: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tool{
+    background-color: #362FD9;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tool i{
+    padding: 5px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.tool i:hover{
+    color: #f50000;
+}
+
+.note textarea{
+    width: 300px;
+    border: none;
+    min-height: 220px;   
+    resize: none;     
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    overflow: hidden;
+    background-color: #1AACAC;
+    border-radius: 0px 0px 10px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.note textarea:hover{
+    background-color: #00b2f8;
+}
+
+.note textarea:focus{
+    outline: none;
+}
+footer{
+    margin-top: -4%;
+    color: #000000;
+    text-align: center;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    
+}
+a{
+    text-decoration: none; 
+    color: #000000;
+}
